@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">114,014</td><td>sanity</td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testcases.yakshaHealthAppTestCase</td><td><a href="#m0">searchForApatientAndViewDetailsOfSelectedPatient</a></td><td rowspan="1">1739183122710</td><td rowspan="1">30175</td></tr><tr class="failedeven"><td><a href="#m1">verifyDispensaryArrowIsMinimizing</a></td><td rowspan="1">1739183115282</td><td rowspan="1">178</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="12">testcases.yakshaHealthAppTestCase</td><td><a href="#m2">deactivateUserByManagingTheAlertPopup</a></td><td rowspan="1">1739183165401</td><td rowspan="1">878</td></tr><tr class="passedeven"><td><a href="#m3">fillTheTextFieldInAddNewPatientPopup</a></td><td rowspan="1">1739183092038</td><td rowspan="1">1013</td></tr><tr class="passedeven"><td><a href="#m4">performKeyBoardOperationToOpenAddNewPatientPopup</a></td><td rowspan="1">1739183086128</td><td rowspan="1">2897</td></tr><tr class="passedeven"><td><a href="#m5">takeScreenshotOfDoctorPage</a></td><td rowspan="1">1739183156510</td><td rowspan="1">5308</td></tr><tr class="passedeven"><td><a href="#m6">validateErrorMessageWhenClickOnRegisterBillingButton</a></td><td rowspan="1">1739183104526</td><td rowspan="1">338</td></tr><tr class="passedeven"><td><a href="#m7">verifyControlScrollingFromDispensaryToSettingModule</a></td><td rowspan="1">1739183118477</td><td rowspan="1">1213</td></tr><tr class="passedeven"><td><a href="#m8">verifyDispensaryArrowIsExpanding</a></td><td rowspan="1">1739183107879</td><td rowspan="1">4374</td></tr><tr class="passedeven"><td><a href="#m9">verifyEnteredValueIsPresent</a></td><td rowspan="1">1739183096064</td><td rowspan="1">779</td></tr><tr class="passedeven"><td><a href="#m10">verifyIndiaIsSelectedFromCountryDropdown</a></td><td rowspan="1">1739183099867</td><td rowspan="1">1649</td></tr><tr class="passedeven"><td><a href="#m11">verifySelectCounterPopupIsPresentAndNavigateToNextpage</a></td><td rowspan="1">1739183074324</td><td rowspan="1">8260</td></tr><tr class="passedeven"><td><a href="#m12">verifyTitleOfTheHomePage</a></td><td rowspan="1">1739183065208</td><td rowspan="1">5139</td></tr><tr class="passedeven"><td><a href="#m13">verifyTooltipOfAnElement</a></td><td rowspan="1">1739183169300</td><td rowspan="1">500</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testcases.yakshaHealthAppTestCase#searchForApatientAndViewDetailsOfSelectedPatient</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[contains(text(),&apos;Click to Activate&apos;)])[1]&quot;}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d08294f70437a158b063b851a63e788b, findElement {using=xpath, value=(//span[contains(text(),&apos;Click to Activate&apos;)])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51045}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51045/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d08294f70437a158b063b851a63e788b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at coreUtilities.utils.CommonEvents.getWebElement(CommonEvents.java:95)
+	at coreUtilities.utils.CommonEvents.waitTillElementVisible(CommonEvents.java:3805)
+	at pages.yakshaHealthAppPages.searchForPatientAndViewDetailsOfSelectedPatient(yakshaHealthAppPages.java:486)
+	at testcases.yakshaHealthAppTestCase.searchForApatientAndViewDetailsOfSelectedPatient(yakshaHealthAppTestCase.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.yakshaHealthAppTestCase#verifyDispensaryArrowIsMinimizing</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Dispensary Arrow element is not present, please check manually expected [true] but found [false]
+	at testcases.yakshaHealthAppTestCase.verifyDispensaryArrowIsMinimizing(yakshaHealthAppTestCase.java:137)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.yakshaHealthAppTestCase#deactivateUserByManagingTheAlertPopup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.yakshaHealthAppTestCase#fillTheTextFieldInAddNewPatientPopup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.yakshaHealthAppTestCase#performKeyBoardOperationToOpenAddNewPatientPopup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.yakshaHealthAppTestCase#takeScreenshotOfDoctorPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.yakshaHealthAppTestCase#validateErrorMessageWhenClickOnRegisterBillingButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.yakshaHealthAppTestCase#verifyControlScrollingFromDispensaryToSettingModule</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.yakshaHealthAppTestCase#verifyDispensaryArrowIsExpanding</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.yakshaHealthAppTestCase#verifyEnteredValueIsPresent</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testcases.yakshaHealthAppTestCase#verifyIndiaIsSelectedFromCountryDropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testcases.yakshaHealthAppTestCase#verifySelectCounterPopupIsPresentAndNavigateToNextpage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testcases.yakshaHealthAppTestCase#verifyTitleOfTheHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testcases.yakshaHealthAppTestCase#verifyTooltipOfAnElement</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

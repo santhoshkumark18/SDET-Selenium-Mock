@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="12" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-10T15:54:19 IST" name="Suite" finished-at="2025-02-10T15:56:13 IST" duration-ms="114014">
+    <groups>
+      <group name="sanity">
+        <method signature="yakshaHealthAppTestCase.verifyTitleOfTheHomePage()[pri:1, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="verifyTitleOfTheHomePage" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifySelectCounterPopupIsPresentAndNavigateToNextpage()[pri:2, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="verifySelectCounterPopupIsPresentAndNavigateToNextpage" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.performKeyBoardOperationToOpenAddNewPatientPopup()[pri:3, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="performKeyBoardOperationToOpenAddNewPatientPopup" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.fillTheTextFieldInAddNewPatientPopup()[pri:4, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="fillTheTextFieldInAddNewPatientPopup" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifyEnteredValueIsPresent()[pri:5, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="verifyEnteredValueIsPresent" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifyIndiaIsSelectedFromCountryDropdown()[pri:6, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="verifyIndiaIsSelectedFromCountryDropdown" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.validateErrorMessageWhenClickOnRegisterBillingButton()[pri:7, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="validateErrorMessageWhenClickOnRegisterBillingButton" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifyDispensaryArrowIsExpanding()[pri:8, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="verifyDispensaryArrowIsExpanding" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifyDispensaryArrowIsMinimizing()[pri:9, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="verifyDispensaryArrowIsMinimizing" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifyControlScrollingFromDispensaryToSettingModule()[pri:10, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="verifyControlScrollingFromDispensaryToSettingModule" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.searchForApatientAndViewDetailsOfSelectedPatient()[pri:11, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="searchForApatientAndViewDetailsOfSelectedPatient" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.takeScreenshotOfDoctorPage()[pri:12, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="takeScreenshotOfDoctorPage" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.deactivateUserByManagingTheAlertPopup()[pri:13, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="deactivateUserByManagingTheAlertPopup" class="testcases.yakshaHealthAppTestCase"/>
+        <method signature="yakshaHealthAppTestCase.verifyTooltipOfAnElement()[pri:14, instance:testcases.yakshaHealthAppTestCase@724f138e]" name="verifyTooltipOfAnElement" class="testcases.yakshaHealthAppTestCase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-02-10T15:54:19 IST" name="Test" finished-at="2025-02-10T15:56:13 IST" duration-ms="114014">
+      <class name="testcases.yakshaHealthAppTestCase">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:54:19 IST" name="initBrowser" finished-at="2025-02-10T15:54:25 IST" duration-ms="6055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="verifyTitleOfTheHomePage()[pri:1, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:54:25 IST" name="verifyTitleOfTheHomePage" description="Verify the title and url of  the current page." finished-at="2025-02-10T15:54:30 IST" duration-ms="5139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfTheHomePage -->
+        <test-method signature="verifySelectCounterPopupIsPresentAndNavigateToNextpage()[pri:2, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:54:34 IST" name="verifySelectCounterPopupIsPresentAndNavigateToNextpage" description="Verify all fields and select counter pop up is present or not and proceed to the next page from the new 1 counter page." finished-at="2025-02-10T15:54:42 IST" duration-ms="8260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectCounterPopupIsPresentAndNavigateToNextpage -->
+        <test-method signature="performKeyBoardOperationToOpenAddNewPatientPopup()[pri:3, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:54:46 IST" name="performKeyBoardOperationToOpenAddNewPatientPopup" description="Perform the keyboard operation to open the  popup and verify that the popup is displayed or not." finished-at="2025-02-10T15:54:49 IST" duration-ms="2897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performKeyBoardOperationToOpenAddNewPatientPopup -->
+        <test-method signature="fillTheTextFieldInAddNewPatientPopup()[pri:4, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:54:52 IST" name="fillTheTextFieldInAddNewPatientPopup" description="Fill all the textfields which are present inside the Add New Patient popup and verify" finished-at="2025-02-10T15:54:53 IST" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheTextFieldInAddNewPatientPopup -->
+        <test-method signature="verifyEnteredValueIsPresent()[pri:5, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:54:56 IST" name="verifyEnteredValueIsPresent" description="Check the data which we are entered are present in all the textfields." finished-at="2025-02-10T15:54:56 IST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnteredValueIsPresent -->
+        <test-method signature="verifyIndiaIsSelectedFromCountryDropdown()[pri:6, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:54:59 IST" name="verifyIndiaIsSelectedFromCountryDropdown" description="Simply select India  from the country dropdown menu and validate India is selected or not." finished-at="2025-02-10T15:55:01 IST" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIndiaIsSelectedFromCountryDropdown -->
+        <test-method signature="validateErrorMessageWhenClickOnRegisterBillingButton()[pri:7, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:55:04 IST" name="validateErrorMessageWhenClickOnRegisterBillingButton" description="Verify the error message, when I click on register and billing button without fill any data." finished-at="2025-02-10T15:55:04 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessageWhenClickOnRegisterBillingButton -->
+        <test-method signature="verifyDispensaryArrowIsExpanding()[pri:8, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:55:07 IST" name="verifyDispensaryArrowIsExpanding" description="Verify that the dispensary arrow is expanding" finished-at="2025-02-10T15:55:12 IST" duration-ms="4374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDispensaryArrowIsExpanding -->
+        <test-method signature="verifyDispensaryArrowIsMinimizing()[pri:9, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:55:15 IST" name="verifyDispensaryArrowIsMinimizing" description="Verify that the dispensary arrow is minimizing." finished-at="2025-02-10T15:55:15 IST" duration-ms="178" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Dispensary Arrow element is not present, please check manually expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Dispensary Arrow element is not present, please check manually expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testcases.yakshaHealthAppTestCase.verifyDispensaryArrowIsMinimizing(yakshaHealthAppTestCase.java:137)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDispensaryArrowIsMinimizing -->
+        <test-method signature="verifyControlScrollingFromDispensaryToSettingModule()[pri:10, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:55:18 IST" name="verifyControlScrollingFromDispensaryToSettingModule" description="Verify that the left navigation menu scroll bar is scrolling from Dispensary module to settings module." finished-at="2025-02-10T15:55:19 IST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyControlScrollingFromDispensaryToSettingModule -->
+        <test-method signature="searchForApatientAndViewDetailsOfSelectedPatient()[pri:11, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:55:22 IST" name="searchForApatientAndViewDetailsOfSelectedPatient" description="Search for a patient name and view the details of the selected patient" finished-at="2025-02-10T15:55:52 IST" duration-ms="30175" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(),'Click to Activate')])[1]"}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d08294f70437a158b063b851a63e788b, findElement {using=xpath, value=(//span[contains(text(),'Click to Activate')])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51045}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51045/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d08294f70437a158b063b851a63e788b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(),'Click to Activate')])[1]"}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d08294f70437a158b063b851a63e788b, findElement {using=xpath, value=(//span[contains(text(),'Click to Activate')])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51045}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51045/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d08294f70437a158b063b851a63e788b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at coreUtilities.utils.CommonEvents.getWebElement(CommonEvents.java:95)
+at coreUtilities.utils.CommonEvents.waitTillElementVisible(CommonEvents.java:3805)
+at pages.yakshaHealthAppPages.searchForPatientAndViewDetailsOfSelectedPatient(yakshaHealthAppPages.java:486)
+at testcases.yakshaHealthAppTestCase.searchForApatientAndViewDetailsOfSelectedPatient(yakshaHealthAppTestCase.java:154)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForApatientAndViewDetailsOfSelectedPatient -->
+        <test-method signature="takeScreenshotOfDoctorPage()[pri:12, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:55:56 IST" name="takeScreenshotOfDoctorPage" description="Take screenshot of Doctor page" finished-at="2025-02-10T15:56:01 IST" duration-ms="5308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOfDoctorPage -->
+        <test-method signature="deactivateUserByManagingTheAlertPopup()[pri:13, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:56:05 IST" name="deactivateUserByManagingTheAlertPopup" description="Deactivate a user or employee by managing the alert popup" finished-at="2025-02-10T15:56:06 IST" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deactivateUserByManagingTheAlertPopup -->
+        <test-method signature="verifyTooltipOfAnElement()[pri:14, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:56:09 IST" name="verifyTooltipOfAnElement" description="Verify tooltip of an element which is present inside the Appointment page." finished-at="2025-02-10T15:56:09 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTooltipOfAnElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.yakshaHealthAppTestCase@724f138e]" started-at="2025-02-10T15:56:12 IST" name="tearDown" finished-at="2025-02-10T15:56:13 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.yakshaHealthAppTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
